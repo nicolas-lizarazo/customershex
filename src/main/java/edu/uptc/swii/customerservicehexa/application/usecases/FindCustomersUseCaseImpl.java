@@ -7,10 +7,10 @@ import edu.uptc.swii.customerservicehexa.application.ports.in.FindCustomerUseCas
 import edu.uptc.swii.customerservicehexa.application.ports.out.CustomerRepositoryPort;
 import edu.uptc.swii.customerservicehexa.domain.model.Customer;
 
-public class FindCustomerUseCaseImpl implements FindCustomerUseCase {
+public class FindCustomersUseCaseImpl implements FindCustomerUseCase {
     private final CustomerRepositoryPort customerRepositoryPort;
 
-    public FindCustomerUseCaseImpl(CustomerRepositoryPort customerRepositoryPort) {
+    public FindCustomersUseCaseImpl(CustomerRepositoryPort customerRepositoryPort) {
         this.customerRepositoryPort = customerRepositoryPort;
     }
 

@@ -12,13 +12,13 @@ import edu.uptc.swii.customerservicehexa.domain.model.Customer;
 public class CustomerService
         implements CreateCustomerUseCase, FindCustomerUseCase, DeleteCustomerUseCase, UpdateCustomerUseCase {
     private final CreateCustomerUseCase createCustomerUseCase;
-    private final FindCustomerUseCase findCustomerUseCase;
     private final DeleteCustomerUseCase deleteCustomerUserCase;
+    private final FindCustomerUseCase findCustomerUseCase;
     private final UpdateCustomerUseCase updateCustomerUseCase;
 
     public CustomerService(CreateCustomerUseCase createCustomerUseCase,
-            FindCustomerUseCase findCustomerUseCase,
             DeleteCustomerUseCase deleteCustomerUserCase,
+            FindCustomerUseCase findCustomerUseCase,
             UpdateCustomerUseCase updateCustomerUseCase) {
         this.createCustomerUseCase = createCustomerUseCase;
         this.findCustomerUseCase = findCustomerUseCase;

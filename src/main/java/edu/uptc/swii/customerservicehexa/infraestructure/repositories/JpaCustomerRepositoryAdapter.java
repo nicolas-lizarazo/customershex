@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import org.springframework.stereotype.Component;
 
 import edu.uptc.swii.customerservicehexa.domain.model.Customer;
-import edu.uptc.swii.customerservicehexa.domain.ports.out.CustomerRepositoryPort;
+import edu.uptc.swii.customerservicehexa.application.ports.out.CustomerRepositoryPort;
 import edu.uptc.swii.customerservicehexa.infraestructure.entities.CustomerEntity;
 
 @Component
